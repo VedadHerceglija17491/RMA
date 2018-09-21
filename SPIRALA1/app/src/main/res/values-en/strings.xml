@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">17491Project</string>
+    <string name="Kategroije">Categories</string>
+    <string name="Autori">Autors</string>
+    <string name="Pretraga">Search</string>
+    <string name="DKategorija">Acategory</string>
+    <string name="Dknjiga">Abook</string>
+    <string name="Slika">Photo</string>
+    <string name="Dodaj">Add</string>
+    <string name="Ponisti">Cancle</string>
+    <string name="Nazad">Back</string>
+    <string name="DodajKnjiguOnline">Addbook</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+<string name="app_name">17491Projekt</string>
+    <string name="Kategroije">Kategorije</string>
+    <string name="Autori">Autori</string>
+    <string name="Pretraga">Pretraga</string>
+    <string name="DKategorija">Dkategorija</string>
+    <string name="Dknjiga">Dknjiga</string>
+    <string name="Slika">Slika</string>
+    <string name="Dodaj">Dodaj</string>
+    <string name="Ponisti">Ponisti</string>
+    <string name="Nazad">Nazad</string>
+    <string name="DodajKnjiguOnline">DodajKnjigu</string>
+    <string name="Brojstranica">Broj stranica</string>
+
+</resources>

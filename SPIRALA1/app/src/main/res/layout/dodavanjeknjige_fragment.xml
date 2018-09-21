@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/naslovnaStr"
+        android:layout_width="70dp"
+        android:layout_height="70dp" />
+
+    <EditText
+        android:id="@+id/imeAutora"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/naslovnaStr"
+        android:layout_toRightOf="@+id/naslovnaStr"
+        android:hint="Naziv" />
+
+    <EditText
+        android:id="@+id/nazivKnjige"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/imeAutora"
+        android:layout_toEndOf="@+id/naslovnaStr"
+        android:layout_toRightOf="@+id/naslovnaStr"
+        android:hint="Autor" />
+
+    <Button
+        android:id="@+id/dNadjiSliku"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/naslovnaStr"
+        android:text="@string/Slika" />
+
+    <Button
+        android:id="@+id/dUpisiKnjigu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nazivKnjige"
+        android:layout_toEndOf="@+id/nazivKnjige"
+        android:layout_toRightOf="@+id/nazivKnjige"
+        android:text="@string/Dodaj" />
+
+    <Spinner
+        android:id="@+id/sKategorijaKnjige"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/dUpisiKnjigu"
+        android:layout_toEndOf="@+id/dNadjiSliku"
+        android:layout_toRightOf="@+id/dNadjiSliku"></Spinner>
+
+    <Button
+        android:id="@+id/dPonisti"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dUpisiKnjigu"
+        android:layout_alignStart="@+id/dUpisiKnjigu"
+        android:layout_below="@+id/sKategorijaKnjige"
+        android:text="@string/Ponisti" />
+
+
+</RelativeLayout>
